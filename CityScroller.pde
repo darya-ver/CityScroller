@@ -41,12 +41,12 @@ class Building
     
   }
 
-  Building(Building building)
+  Building(Building bui)
   {
     myHeight = (int)(Math.random()*200+200);
     myWidth = (int)(Math.random()*100+100);
 
-    myX = building.getX()+building.getWidth();
+    myX = bui.getX()+bui.getWidth();
     myY = height - myHeight;
   }
 
