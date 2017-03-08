@@ -40,7 +40,12 @@ class Building
     myY = height - myHeight;
     
   }
-
+  
+  public int getX(){return myX;}
+  public int getY(){return myY;}
+  public int getWidth(){return myWidth;}
+  public int getHeight(){return myHeight;}
+  
   Building(Building bui)
   {
     myHeight = (int)(Math.random()*200+200);
@@ -50,10 +55,7 @@ class Building
     myY = height - myHeight;
   }
 
-  public int getX(){return myX;}
-  public int getY(){return myY;}
-  public int getWidth(){return myWidth;}
-  public int getHeight(){return myHeight;}
+  
 
   public void show()
   {
